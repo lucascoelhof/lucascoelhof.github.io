@@ -11,11 +11,12 @@ After graduating, I did a lot of exploring about career. I started my Masters in
 
 Today, I'm fully focused on R&D on autonomous vehicles and robotics, because I strongly believe these technologies will dramatically change the world we live today. 
 
-I started this blog because I wanted to share a bit of what I learn everyday, so I can help others and make the community stronger. Sometimes I will write in Portuguese.
 
 ## This page
 
-I am actually very bad at frontend design, but I used some great open-source projects to make this page. Some fun facts about this website include:
+I started this blog because I wanted to share a bit of what I learn everyday, so I can help others and make the community stronger. Sometimes I will write in Portuguese.
+
+I am actually very bad at frontend design, and I used some great open-source projects to make this page. Some fun facts about this website include:
 
 * Built for [Jekyll](http://jekyllrb.com)
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
@@ -24,7 +25,7 @@ I am actually very bad at frontend design, but I used some great open-source pro
 * Got some ideas from [chrisschuld.com](https://github.com/cbschuld/chrisschuld.com) 
 * [This page](http://joshualande.com/jekyll-github-pages-poole) was really helpful to customize this blog as I always wanted
 * Developed this website in about 3 hours (including setup and installation time).
-* Here are my dogs, [Pipoca and Paçoca](/posts/2019-10-14-dogs/)
+* Here are my dogs, [Pipoca and Paçoca](/2019-10-14-dogs/)
 
 
 Thanks for reading!

@@ -16,6 +16,7 @@ _site
 *~
 
 .jekyll-cache/*
+CNAME
 
 # OS or Editor folders
 .DS_Store
