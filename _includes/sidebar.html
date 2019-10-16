@@ -1,0 +1,68 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+
+      <div>
+          <img class="photo" src="/public/images/lucas.jpg" alt="" />
+      </div>
+
+      <h2>
+          <a href="{{ site.baseurl }}" >
+              {{ site.title }}
+          </a>
+      </h2>
+        
+      <p class="lead">{{ site.description }}</p>
+
+      
+      
+
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+    </nav>
+
+    <div id="share">
+        <ul>
+            <li class="social-li">
+                <a href="{{ site.social_media.linkedin }}">
+                    <img class="social-icon" src="/public/images/icons/linkedin-4-32.ico"/>
+                </a>
+            </li>
+            <li class="social-li">
+                <a href="{{ site.social_media.github }}">
+                    <img class="social-icon" src="/public/images/icons/github-9-32.ico"/>
+                </a>
+            </li>
+            <li class="social-li">
+                <a href="{{ site.social_media.instagram }}">
+                    <img class="social-icon" src="/public/images/icons/instagram-32.ico"/>
+                </a>
+            </li>
+            <li class="social-li">
+                <a href="mailto: {{ site.social_media.email }}">
+                    <img class="social-icon" src="/public/images/icons/mail-2-32.ico"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
