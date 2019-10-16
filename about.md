@@ -25,7 +25,7 @@ I am actually very bad at frontend design, and I used some great open-source pro
 * Got some ideas from [chrisschuld.com](https://github.com/cbschuld/chrisschuld.com) 
 * [This page](http://joshualande.com/jekyll-github-pages-poole) was really helpful to customize this blog as I always wanted
 * Developed this website in about 3 hours (including setup and installation time).
-* Here are my dogs, [Pipoca and Paçoca](/2019-10-14-dogs/)
+* Here are my dogs, [Pipoca and Paçoca](/post/2019-10-14-dogs/)
 
 
 Thanks for reading!
