@@ -25,6 +25,8 @@ social_media:
 plugins:  [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jemoji]
 paginate: 5
 
+disqusid: "lucascoelho-net.disqus.com"
+
 # Custom vars
 version: 2.1.0
 
