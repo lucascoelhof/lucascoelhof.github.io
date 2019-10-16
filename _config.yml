@@ -1,32 +1,32 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      pygments
+markdown:    kramdown
+highlighter: pygments
 
 # Permalinks
-permalink:        /:categories/:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:title/
 
 # Setup
-title:            Lucas Coelho Figueiredo
-tagline:          'Robotics Engineer'
-description:      'Robotics engineer working for an autonomous future!'
-url:              https://lucascoelhof.github.io
-baseurl:          /
+title:        Lucas Coelho Figueiredo
+tagline:     'Robotics Engineer'
+description: 'Robotics engineer working for an autonomous future!'
+url:          https://lucascoelhof.github.io
+baseurl:      /
 
 author:
-  name:           'Lucas Coelho Figueiredo'
-  url:            https://lucascoelhof.github.io
+  name: 'Lucas Coelho Figueiredo'
+  url:   https://lucascoelhof.github.io
 
 social_media:
-  linkedin: 'https://www.linkedin.com/in/lucascoelhof/'
-  github: 'https://github.com/lucascoelhof'
-  email: 'hello@lucascoelho.net'
-  instagram: 'https://instagram.com/lucascoelhof'
+  linkedin:   'https://www.linkedin.com/in/lucascoelhof/'
+  github:     'https://github.com/lucascoelhof'
+  email:      'hello@lucascoelho.net'
+  instagram:  'https://instagram.com/lucascoelhof'
 
-plugins: [jekyll-paginate]
-paginate:         5
+plugins:  [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jemoji]
+paginate: 5
 
 # Custom vars
-version:          2.1.0
+version: 2.1.0
 
 github:
-  repo:           https://github.com/lucascoelhof/lucascoelhof.github.io
+  repo:  https://github.com/lucascoelhof/lucascoelhof.github.io
