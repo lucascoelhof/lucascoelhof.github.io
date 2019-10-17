@@ -1,20 +1,21 @@
 # Dependencies
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Permalinks
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:year_:month_:day_:title/
+
 
 # Setup
 title:        Lucas Coelho Figueiredo
 tagline:     'Robotics Engineer'
 description: 'Robotics engineer working for an autonomous future!'
-url:          https://lucascoelhof.github.io
+url:          https://lucascoelho.net
 baseurl:      /
 
 author:
   name: 'Lucas Coelho Figueiredo'
-  url:   https://lucascoelhof.github.io
+  url:   https://lucascoelho.net
 
 social_media:
   linkedin:   'https://www.linkedin.com/in/lucascoelhof/'
@@ -22,7 +23,7 @@ social_media:
   email:      'hello@lucascoelho.net'
   instagram:  'https://instagram.com/lucascoelhof'
 
-plugins:  [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jemoji]
+plugins:  [jekyll-paginate]
 paginate: 5
 
 disqusid: "lucascoelho-net.disqus.com"
