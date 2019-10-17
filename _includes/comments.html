@@ -1,18 +1,18 @@
 {% if page.comments %}
 <div id="disqus_thread"></div>
   <script type="text/javascript">
-    var disqus_config = function () {
-      // Here is an example,
-      // this.page.url = "https://poanchen.github.io/blog/2017/07/27/how-to-add-disqus-to-your-jekyll-site";
-      this.page.url = "{{ site.url }}/{{ page.url }}";
-      this.page.identifier = "{{ page.url }}";
+
+  var disqus_config = function () {
+      // we are using document.location.* here because Jekyll code does not work well in JS code.
+      this.page.url = document.location.href;
+      this.page.identifier = document.location.pathname;
     };
 
     // You should be able to get the following lines of code from your Disqus admin.
     // https://disqus.com/admin/universalcode
     (function() { // DON'T EDIT BELOW THIS LINE
       var d = document, s = d.createElement('script');
-      s.src = 'https://lucascoelho-net.disqus.com/embed.js';
+      s.src = '//lucascoelho-net.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
