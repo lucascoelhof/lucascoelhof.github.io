@@ -17,7 +17,8 @@ that learns how to drive a car in a simulator my mimicking your drive behavior. 
 would use your throttle and steering inputs and the camera image to train the neural network
 to behave as you would. Here is the repo:
 
-{% gitrepo lucascoelhof/CarND-Behavioral-Cloning-P3 %}
+{% include repo_card.html reponame="lucascoelhof/CarND-Behavioral-Cloning-P3" %}
+
 
 But the simulator used on this assignment is not really great, so I wanted to use 
 a better and more fun alternative. I found a [series of tutorials from sentdex](https://pythonprogramming.net/game-frames-open-cv-python-plays-gta-v/)
