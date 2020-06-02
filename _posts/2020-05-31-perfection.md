@@ -39,7 +39,7 @@ perfect in the way I planned, it wasn't worth the time and attention to make. Th
 
 After some weeks, I stumbled upon this video on YouTube:
 
-{% youtube 0mAKN7s6_qE %}
+{% include youtube.html id=0mAKN7s6_qE %}
  
 If you are reading this post until this point, I assume you are a perfectionist and have empathized with me. So, please, watch it.
 
