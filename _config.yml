@@ -23,11 +23,6 @@ social_media:
   email:      'hello@lucascoelho.net'
   instagram:  'https://instagram.com/lucascoelhof'
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-
 plugins:  [jekyll-paginate]
 paginate: 5
 
