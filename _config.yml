@@ -23,7 +23,7 @@ social_media:
   email:      'hello@lucascoelho.net'
   instagram:  'https://instagram.com/lucascoelhof'
 
-plugins:  [jekyll-paginate]
+plugins:  [jekyll-paginate, jekyll-youtube]
 paginate: 5
 
 disqusid: "lucascoelho-net.disqus.com"
