@@ -17,7 +17,7 @@ that learns how to drive a car in a simulator my mimicking your drive behavior. 
 would use your throttle and steering inputs and the camera image to train the neural network
 to behave as you would. Here is the repo:
 
-{% include repo_card.html user="lucascoelhof" repo="CarND-Behavioral-Cloning-P3" %}
+{% include repo_card.html reponame="CarND-Behavioral-Cloning-P3" %}
 
 
 But the simulator used on this assignment is not really great, so I wanted to use 
