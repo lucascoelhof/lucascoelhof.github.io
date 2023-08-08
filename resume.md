@@ -4,5 +4,5 @@ title: Resume
 order: 10
 ---
 
-You can download the most recent version of my resume [here](https://github.com/lucascoelhof/resume/raw/master/cv_LucasCoelhoFigueiredo.pdf).
+<object data="/public/images/cv_LucasCoelhoFigueiredo.pdf" width="1000" height="1000" type='application/pdf'></object>
 

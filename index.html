@@ -3,16 +3,17 @@ layout: default
 title: Home
 ---
 
-<h1 class="post-title">
-  Hello world!
-</h1>
-
-
-<div>
-  <p> 
-    I'm Lucas, I am a robotics engineer that works developing autonomous vehicles. 
-    <br>
-    <br>
-    Here in this page you can find a bit more about me, my contacts, my projects and some random content I post once in a while.
-  </p>
-</div>
+{% for post in site.posts %}
+<article>
+  <h2>
+    <a href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h2>
+  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+  {{ post.excerpt }}
+  <a href="{{ post.url }}">
+    more...
+  </a>
+</article>
+{% endfor %}

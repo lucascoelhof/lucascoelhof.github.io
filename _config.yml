@@ -9,13 +9,13 @@ permalink: /:categories/:year_:month_:day_:title/
 # Setup
 title:        Lucas Coelho Figueiredo
 tagline:     'Robotics Engineer'
-description: 'Robotics engineer working for an autonomous future!'
-url:          https://lucascoelho.net
+description: 'Robotics engineer'
+url:          https://lucascoelhof.github.io
 baseurl:      /
 
 author:
   name: 'Lucas Coelho Figueiredo'
-  url:   https://lucascoelho.net
+  url:   https://lucascoelhof.github.io
 
 social_media:
   linkedin:   'https://www.linkedin.com/in/lucascoelhof/'
@@ -33,3 +33,5 @@ version: 2.1.0
 
 github:
   repo:  https://github.com/lucascoelhof/lucascoelhof.github.io
+
+excerpt_separator: <!--more-->
